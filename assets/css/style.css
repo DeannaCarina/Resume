@@ -1,5 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;200;300;400;500;600;700&display=swap');
 
 /* font-family: 'Lato', sans-serif;
 font-family: 'Roboto', sans-serif; */
 
+
+/*--------------------Colours-------------------------*/
+.bg-color-name-title{
+    background-image: linear-gradient(to right, rgb(39, 39, 39), rgb(97, 97, 97));
+}
+
+/*--------------------Heading-------------------------*/
+header{
+    margin: 0px;
+}
+
+.heading{
+    margin-left: 50px;
+}
+
+.logo{
+    background: url(../images/dee.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 360px;
+    filter: grayscale(100%);
+    transition: all 0.5 ease-in-out;
+    -moz-transition: all 0.5 ease-in-out;
+    -webkit-transition: all 0.5 ease-in-out;
+}
+
+.name{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: white;
+}
+
+.title{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: white;
+}
