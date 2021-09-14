@@ -216,7 +216,7 @@ footer{
 /*--------------------Three Reasons-------------------------*/
 .three-reasons-icon{
     font-size: 26px;
-    color: rgb(165, 7, 86)
+    color: rgb(165, 7, 86);
 }
 .three-reasons-heading{
     margin-bottom: 15px;
@@ -250,6 +250,78 @@ footer{
 .personal-info-item .value{
     position: relative;
     width: 60%;
+}
+
+/*-------------------skills-------------------------------*/
+.skills-icon{
+    font-size: 26px;
+    color: rgb(5, 126, 95);
+}
+
+.progress{
+    position: relative;
+    height: 25px;
+    margin-bottom: 5px;
+}
+.progress-type{
+    position: absolute;
+    left: 0px;
+    line-height: 25px;
+    font-weight: 400;
+    width: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(200, 200, 200);
+    background-color: rgba(25, 25, 25, 0.5);
+    text-align: center;
+}
+
+.prog-html{
+    background-color: rgb(255, 60, 0);
+}
+
+.prog-css{
+    background-color: rgb(73, 104, 207);
+}
+
+.prog-js{
+    background-color: rgb(255, 208, 0);
+}
+
+.prog-python{
+    background-image: linear-gradient(to right, rgb(73, 104, 207) , rgb(230, 214, 73));
+}
+
+.prog-github{
+    background-image: linear-gradient(to right, rgb(119, 34, 255) , rgb(22, 12, 48));
+}
+
+.prog-heroku{
+    background-color: rgb(200, 143, 233);
+}
+
+.prog-sql{
+    background-color: rgb(104, 195, 238);
+}
+
+.prog-php{
+    background-color: rgb(129, 148, 212);
+}
+
+.prog-gcp{
+    background-image: linear-gradient(to right, red, yellow,green,blue); 
+}
+
+.prog-aws{
+    background-image: linear-gradient(to right, orange , grey)
+}
+
+.prog-mongo{
+    background-image: linear-gradient(to right, rgb(70, 102, 51) , rgb(92, 129, 88))
+}
+
+.progress-section{
+    margin: 40px 20px;
 }
 
 
