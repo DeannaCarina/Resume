@@ -133,6 +133,9 @@ header{
     padding-bottom: 45px;
 }
 
+li #active{
+    color: black;
+}
 
 
 /*--------------------Footer-------------------------*/
