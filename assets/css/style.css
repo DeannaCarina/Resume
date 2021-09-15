@@ -21,6 +21,10 @@ font-family: 'Roboto', sans-serif; */
     background-color: rgb(5, 126, 95);
 }
 
+.bg-color-contact{
+    background-color: rgb(200, 200, 200);
+}
+
 .ui-menu-color-home{
     background-color: rgb(165, 7, 86);
 }
@@ -360,6 +364,46 @@ footer{
 }
 
 
+/*----------------Contact-----------*/
+
+.contact-heading{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.center-form{
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+button[type="submit"]{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgb(200, 200, 200);
+    color: rgb(34, 76, 138);
+}
+
+.form-control{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-form{
+    background-color: rgb(34, 76, 138);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+}
+
+
 /*-----------------------HOVER.CSS----------------------*/
 .hvr-sweep-to-bottom {
     display: inline-block;
@@ -401,3 +445,26 @@ footer{
     transform: scaleY(1);
   }
   
+
+/* 
+
+  MEDIA QUERIES */
+
+
+  @media screen and (max-width: 1000px){
+    .center-form{
+        max-width: 70%;
+    }
+  }
+
+  @media screen and (max-width: 600px){
+    .center-form{
+        max-width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 340px){
+    button[type="submit"]{
+        width: 90%;
+    }
+  }
