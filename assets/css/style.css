@@ -17,6 +17,10 @@ font-family: 'Roboto', sans-serif; */
     background-color: rgb(200, 200, 200);
 }
 
+.bg-color-work-history{
+    background-image: linear-gradient(to left, rgb(5, 126, 95) , rgb(200, 200, 200));
+}
+
 .ui-menu-color-home{
     background-color: rgb(165, 7, 86);
 }
@@ -258,6 +262,25 @@ footer{
     color: rgb(5, 126, 95);
 }
 
+.project-list{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.deployed-project{
+    color: rgb(11, 158, 121);
+    font-size: 15px;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+
+.deployed-project:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
 .progress{
     position: relative;
     height: 25px;
@@ -276,49 +299,10 @@ footer{
     text-align: center;
 }
 
-.prog-html{
-    background-color: rgb(255, 60, 0);
+.progress-bar{
+    background-image: linear-gradient(to right, rgb(5, 126, 95) , rgb(0, 0, 0));
 }
 
-.prog-css{
-    background-color: rgb(73, 104, 207);
-}
-
-.prog-js{
-    background-color: rgb(255, 208, 0);
-}
-
-.prog-python{
-    background-image: linear-gradient(to right, rgb(73, 104, 207) , rgb(230, 214, 73));
-}
-
-.prog-github{
-    background-image: linear-gradient(to right, rgb(119, 34, 255) , rgb(22, 12, 48));
-}
-
-.prog-heroku{
-    background-color: rgb(200, 143, 233);
-}
-
-.prog-sql{
-    background-color: rgb(104, 195, 238);
-}
-
-.prog-php{
-    background-color: rgb(129, 148, 212);
-}
-
-.prog-gcp{
-    background-image: linear-gradient(to right, red, yellow,green,blue); 
-}
-
-.prog-aws{
-    background-image: linear-gradient(to right, orange , grey)
-}
-
-.prog-mongo{
-    background-image: linear-gradient(to right, rgb(70, 102, 51) , rgb(92, 129, 88))
-}
 
 .progress-section{
     margin: 40px 20px;
