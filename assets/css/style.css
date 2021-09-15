@@ -3,6 +3,10 @@
 /* font-family: 'Lato', sans-serif;
 font-family: 'Roboto', sans-serif; */
 
+body{
+    margin-right: 1px;
+}
+
 
 /*--------------------Colours-------------------------*/
 .bg-color-name-title{
