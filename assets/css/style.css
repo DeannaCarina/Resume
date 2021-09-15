@@ -18,7 +18,7 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .bg-color-work-history{
-    background-image: linear-gradient(to left, rgb(5, 126, 95) , rgb(200, 200, 200));
+    background-color: rgb(5, 126, 95);
 }
 
 .ui-menu-color-home{
@@ -70,6 +70,7 @@ h4{
     float: none;
 }
 
+.history-heading,
 .section-heading{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -255,6 +256,53 @@ footer{
     position: relative;
     width: 60%;
 }
+
+
+/*--------------------History-----------------------*/
+.history-heading{
+    color: rgb(200, 200, 200);
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.timeline-item{
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color:rgb(200, 200, 200);
+    border-left: 1px solid rgb(200, 200, 200);
+}
+
+.timeline-item p{
+    padding: 0px;
+    margin: 0px;
+}
+
+.timeline-item:before{
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0px;
+    margin: 0px;
+}
+
+.timeline-item:after{
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background-color: rgb(200, 200, 200);
+}
+
+
 
 /*-------------------skills-------------------------------*/
 .skills-icon{
