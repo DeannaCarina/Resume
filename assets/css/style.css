@@ -397,6 +397,9 @@ button[type="submit"]{
 .form-control{
     margin-top: 10px;
     margin-bottom: 10px;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
 }
 
 .contact-form{
@@ -406,6 +409,12 @@ button[type="submit"]{
     padding-top: 4px;
     margin-bottom: 40px;
     border-radius: 15px;
+    
+}
+.form-control:hover,
+.form-control:active,
+.form-control:focus{
+    background-color: rgb(219, 235, 255);
 }
 
 
