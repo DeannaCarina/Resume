@@ -447,6 +447,12 @@ button[type="submit"]{
 div#map {
     min-height: 360px;
 }
+/*--------------------------------------------Map*/
+#fourohfourbody{
+    background-color: white;
+    text-align: center;
+    padding-top: 100px;
+}
 
 /*-----------------------HOVER.CSS----------------------*/
 .hvr-sweep-to-bottom {
