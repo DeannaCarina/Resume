@@ -6,6 +6,10 @@ font-family: 'Roboto', sans-serif; */
 body{
     margin-right: -3px;
     overflow-x: hidden;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    background-color: #525252;
+    color: #555555;
 }
 
 
@@ -30,6 +34,14 @@ body{
     background-color: rgb(200, 200, 200);
 }
 
+.bg-color-conferences {
+    background-color: #f4f4f4;
+}
+
+.bg-color-groups {
+    background-color: #ffffff;
+}
+
 .ui-menu-color-home{
     background-color: rgb(165, 7, 86);
 }
@@ -42,8 +54,16 @@ body{
     background-color: rgb(34, 76, 138);
 }
 
+.ui-menu-color-interests{
+    background-color: rgb(74, 34, 138);
+}
+
+.ui-menu-color-github{
+    background-color: rgb(56, 56, 56);
+}
+
 .ui-menu-color-cv{
-    background-color: rgb(85, 44, 119);
+    background-color: rgb(97, 97, 97);
 }
 
 /*----------------Special paddings/margins/text-----------*/
@@ -81,7 +101,7 @@ h4{
 
 .history-heading,
 .section-heading{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
@@ -107,7 +127,7 @@ header{
 }
 
 .name{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
@@ -295,7 +315,7 @@ footer{
     left: 2.5em;
     top: 3em;
     display: block;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 500;
     font-size: 0.8em;
     padding: 0px;
@@ -372,7 +392,7 @@ footer{
 /*----------------Contact-----------*/
 
 .contact-heading{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
     margin-top: 30px;
     margin-bottom: 20px;
@@ -417,6 +437,16 @@ button[type="submit"]{
     background-color: rgb(219, 235, 255);
 }
 
+/*-------------------interests-------------------------------*/
+.interests-icon{
+    font-size: 26px;
+    color: rgb(74, 34, 138);
+}
+
+/*--------------------------------------------Map*/
+div#map {
+    min-height: 360px;
+}
 
 /*-----------------------HOVER.CSS----------------------*/
 .hvr-sweep-to-bottom {

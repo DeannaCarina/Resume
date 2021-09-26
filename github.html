@@ -10,7 +10,7 @@
     <meta name="description" content="Online resume of Deanna Carina Sale">
     <meta name="keywords" content="Resume, CV, Deanna Sale, Software Developer">
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
-    <title>Deanna Carina Sale | Contact</title>
+    <title>Deanna Carina Sale | GitHub</title>
 </head>
 <body>
     <header>
@@ -50,26 +50,20 @@
                     </div>
                 </div>
             </div>
-        </div>
     </header>
     <section class="container-fluid">
         <div class="row bg-color-contact">
             <div class="col">
-                <h3 class="contact-heading uppercase text-center">Need to contact me?</h3>
-                <h5 class="uppercase text-center">Please use the form below.</h5>
+                <h3 class="contact-heading uppercase text-center">View My GitHub Projects</h3>
+                <h5 class="uppercase text-center">You can also search on other user profiles</h5>
 
                 <div class="center-form">
-                    <form class="contact-form">
-                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
-                        <input type="text" name="email" id="email" class="form-control" placeholder="Email Address" required/>
-                        <textarea rows="10" name="message" id="message" class="form-control" placeholder="Your message" required></textarea>
-                        <div class="form-row text-center">
-                            <div class="col">
-                                <button type="submit" class="btn btn-secondary">Send <i class="fas fa-paper-plane"></i></button>
-                            </div>
-                        </div>
-                    </form>
+                    <input type="text" id="gh-username" value="octocat" oninput="fetchGitHubInformation()" />
+                    <div id="gh-user-data"></div>
+                    <div id="gh-repo-data"></div>
+
                 </div>
+
             </div>
         </div>
 
@@ -80,7 +74,7 @@
                 <h5 class="uppercase general-sub">About</h5>
                 <p class="inline-block">
                     Aspiring full-stack software developer. Experience in HTML, CSS, JavaScript, Python, GitHub, Heroku, 
-                    Bootstrap, communication, teamworking, collaboration.<br><br><br>  
+                    Bootstrap, communication, teamworking, collaboration.<br><br><br>    
                 </p>
             </div>
             <div class="col-sm-4">
