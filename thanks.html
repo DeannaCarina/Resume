@@ -5,23 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/f73762c6c0.js" crossorigin="anonymous"></script> 
     <link rel="stylesheet" href="assets/css/style.css">  
     <meta name="description" content="Online resume of Deanna Carina Sale">
     <meta name="keywords" content="Resume, CV, Deanna Sale, Software Developer">
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
-    <title>Deanna Carina Sale | Contact</title>
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js">
-    </script>
-    <script type="text/javascript">
-    (function(){
-        emailjs.init("user_kO5FRoM19X5QiqUPbOqXI");
-    })();
-    </script>
+    <title>Deanna Carina Sale</title>
 </head>
-<body>
+<body id="thanksbody">
     <header>
         <div class="row no-gutters">
             <a href="index.html" class="col-md-4 logo">
@@ -61,28 +52,9 @@
             </div>
         </div>
     </header>
-    <section class="container-fluid">
-        <div class="row bg-color-contact">
-            <div class="col">
-                <h3 class="contact-heading uppercase text-center">Need to contact me?</h3>
-                <h5 class="uppercase text-center">Please use the form below.</h5>
-
-                <div class="center-form">
-                    <form class="contact-form" onsubmit="return sendMail(this);" method="POST" action="/thanks.html">
-                        <input type="text" name="name" id="name" class="form-control" placeholder="Name" required/>
-                        <input type="text" name="email" id="email" class="form-control" placeholder="Email Address" required/>
-                        <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" required/>
-                        <textarea rows="10" name="message" id="message" class="form-control" placeholder="Your message" required></textarea>
-                        <div class="form-row text-center">
-                            <div class="col">
-                                <button type="submit" class="btn btn-secondary" id="contact-button">Send <i class="fas fa-paper-plane"></i></button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-
+    <section class="container-fluid thanks-container">
+      <h1>Thanks for your email, I will aim to respond within 24 hours.</h1>
+      <h3>Please check your Junk Mail for any response.</h2>
     </section>
     <footer class="container-fluid">
         <div id="footer-details" class="row">
@@ -90,7 +62,7 @@
                 <h5 class="uppercase general-sub">About</h5>
                 <p class="inline-block">
                     Aspiring full-stack software developer. Experience in HTML, CSS, JavaScript, Python, GitHub, Heroku, 
-                    Bootstrap, communication, teamworking, collaboration.<br><br><br>  
+                    Bootstrap, communication, teamworking, collaboration.<br><br><br>    
                 </p>
             </div>
             <div class="col-sm-4">
@@ -134,6 +106,5 @@
             </div>
         </div>
     </footer>
-    <script src="assets/js/email.js"></script>
 </body>
 </html>

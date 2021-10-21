@@ -8,6 +8,7 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS", response);
+            window.location.replace('https://deannacarina.github.io/Resume/thanks.html')
         },
         function(error) {
             console.log("FAILED", error);

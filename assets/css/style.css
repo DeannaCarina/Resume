@@ -447,13 +447,21 @@ button[type="submit"]{
 div#map {
     min-height: 360px;
 }
-/*--------------------------------------------Map*/
+/*--------------------------------------------404*/
 #fourohfourbody{
     background-color: white;
     text-align: center;
     padding-top: 100px;
 }
+/*--------------------------------------------404*/
+#thanksbody{
+    background-color: white;
+}
 
+.thanks-container{
+    text-align: center;
+    padding: 150px;
+}
 /*-----------------------HOVER.CSS----------------------*/
 .hvr-sweep-to-bottom {
     display: inline-block;
