@@ -17,7 +17,7 @@
     </script>
     <script type="text/javascript">
     (function(){
-        emailjs.init("user_kO5FRoM19X5QiqUPbOqXI");
+        emailjs.init("user_dP1aUrHw56rdlcfbG");
     })();
     </script>
 </head>
@@ -68,14 +68,14 @@
                 <h5 class="uppercase text-center">Please use the form below.</h5>
 
                 <div class="center-form">
-                    <form class="contact-form" onsubmit="return sendMail(this);" method="POST">
+                    <form id="fillForm" class="contact-form" onsubmit="return sendMail(this);" method="POST">
                         <input type="text" name="name" id="name" class="form-control" placeholder="Name" required/>
                         <input type="text" name="email" id="email" class="form-control" placeholder="Email Address" required/>
                         <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" required/>
                         <textarea rows="10" name="message" id="message" class="form-control" placeholder="Your message" required></textarea>
                         <div class="form-row text-center">
                             <div class="col">
-                                <a href="https://8000-rose-kangaroo-ysm0g8no.ws-eu17.gitpod.io/thanks.html"><button type="submit" class="btn btn-secondary" id="contact-button">Send <i class="fas fa-paper-plane"></i></button></a>
+                                <a href="#"><button type="submit" class="btn btn-secondary" id="contact-button">Send <i class="fas fa-paper-plane"></i></button></a>
                             </div>
                         </div>
                     </form>
