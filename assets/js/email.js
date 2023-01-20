@@ -1,5 +1,7 @@
-function sendMail(contactForm) {
-    emailjs.send("service_2widl53", "template_DeannaCarina", {
+
+function sendMail(contactForm){
+    emailjs.sendForm('service_2widl53', 'template_DeannaCarina', this,
+    {
         "from_name": contactForm.name.value,
         "from_email": contactForm.email.value,
         "form_subject": contactForm.subject.value,
@@ -16,5 +18,4 @@ function sendMail(contactForm) {
     );
     document.getElementById('fillForm').reset(); // Reset form once the message has been sent
     return false; // This is to prevent the page from refreshing when you submit your form 
-}
-
+    }
